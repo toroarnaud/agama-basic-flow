@@ -44,7 +44,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "username pwd",
+					"arguments": "user.username user.pwd",
 					"logMessage": "",
 					"templatePath": "user.data",
 					"maxIteration": "",
