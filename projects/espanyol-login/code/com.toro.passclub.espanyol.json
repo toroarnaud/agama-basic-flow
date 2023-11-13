@@ -44,7 +44,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "username password",
+					"arguments": "username,pwd",
 					"logMessage": "",
 					"templatePath": "user.data",
 					"maxIteration": "",
@@ -163,8 +163,8 @@
 		}
 	],
 	"viewport": {
-		"x": 183.89093012399508,
-		"y": 68.84068939295082,
+		"x": 148.31235559281913,
+		"y": 52.8539078464558,
 		"zoom": 0.8467453123625275
 	}
 }
