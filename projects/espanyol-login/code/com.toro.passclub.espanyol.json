@@ -44,7 +44,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "user.username user.password",
+					"arguments": "username",
 					"logMessage": "",
 					"templatePath": "user.data",
 					"maxIteration": "",
@@ -66,7 +66,8 @@
 					"configParams": "{}",
 					"nodeIcon": "ph:globe-simple",
 					"asssignedVariableName": "user"
-				}
+				},
+				"skake": true
 			},
 			"selected": true,
 			"positionAbsolute": {
@@ -162,8 +163,8 @@
 		}
 	],
 	"viewport": {
-		"x": 86.28694972936285,
-		"y": 57.934170806848016,
-		"zoom": 0.8467453123625276
+		"x": 183.89093012399508,
+		"y": 68.84068939295082,
+		"zoom": 0.8467453123625275
 	}
 }
