@@ -44,9 +44,9 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "user.username user.pwd",
+					"arguments": "username userpwd",
 					"logMessage": "",
-					"templatePath": "user.data",
+					"templatePath": "userdata",
 					"maxIteration": "",
 					"idpAuthEndpoint": "",
 					"variableField": "",
@@ -65,7 +65,7 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "ph:globe-simple",
-					"asssignedVariableName": "user"
+					"asssignedVariableName": "username userpwd"
 				},
 				"skake": true
 			},
