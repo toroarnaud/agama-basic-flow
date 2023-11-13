@@ -1,1 +1,19 @@
-{}
+{
+    "espanyol-login": {
+        "projectName": "espanyol-login",
+        "description": "Login flow for Espanyol app",
+        "type": "community",
+        "author": "toroarnaud",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/toroarnaud/agama-basic-flow",
+        "githubUri": "https://github.com/toroarnaud/agama-basic-flow",
+        "license": "apache-2.0",
+        "lastUpdated": "1699869610588",
+        "tags": [
+            "openid-connect",
+            "jans"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}
