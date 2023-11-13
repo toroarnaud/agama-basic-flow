@@ -44,9 +44,9 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "username userpwd",
+					"arguments": "Username Userpassword",
 					"logMessage": "",
-					"templatePath": "userdata",
+					"templatePath": "Espanyol.ftlh",
 					"maxIteration": "",
 					"idpAuthEndpoint": "",
 					"variableField": "",
@@ -65,7 +65,7 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "ph:globe-simple",
-					"asssignedVariableName": "username"
+					"asssignedVariableName": "creds"
 				},
 				"skake": false
 			},
@@ -163,8 +163,8 @@
 		}
 	],
 	"viewport": {
-		"x": 148.31235559281913,
-		"y": 52.8539078464558,
-		"zoom": 0.8467453123625275
+		"x": 10,
+		"y": 15,
+		"zoom": 1
 	}
 }
