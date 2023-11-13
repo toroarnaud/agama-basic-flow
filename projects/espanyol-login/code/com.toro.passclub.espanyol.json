@@ -44,7 +44,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "username",
+					"arguments": "username userpwd",
 					"logMessage": "",
 					"templatePath": "userdata",
 					"maxIteration": "",
@@ -67,7 +67,7 @@
 					"nodeIcon": "ph:globe-simple",
 					"asssignedVariableName": "username"
 				},
-				"skake": true
+				"skake": false
 			},
 			"selected": true,
 			"positionAbsolute": {
