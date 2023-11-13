@@ -1,4 +1,4 @@
 Flow com.toro.passclub.espanyol
      Basepath ""
 // Collect user data
-user = RRF "user.data" username pwd
+user = RRF "user.data" user.username user.pwd
