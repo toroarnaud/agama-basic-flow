@@ -44,7 +44,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "Username Userpassword",
+					"arguments": "Username Password",
 					"logMessage": "",
 					"templatePath": "Espanyol.ftlh",
 					"maxIteration": "",
@@ -67,7 +67,7 @@
 					"nodeIcon": "ph:globe-simple",
 					"asssignedVariableName": "creds"
 				},
-				"skake": false
+				"skake": true
 			},
 			"selected": true,
 			"positionAbsolute": {
