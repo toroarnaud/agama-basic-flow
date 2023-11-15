@@ -66,7 +66,8 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "isAuthenticated"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -255,8 +256,8 @@
 		}
 	],
 	"viewport": {
-		"x": 281.6009559944141,
-		"y": 74.82815799518568,
-		"zoom": 0.7371346086455506
+		"x": 10,
+		"y": 15,
+		"zoom": 1
 	}
 }
