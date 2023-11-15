@@ -3,10 +3,85 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-call-Node-b8d4c29e-c209-4a13-8832-7938b7e58cc2",
+			"position": {
+				"x": 620.1398184901543,
+				"y": 33.5429779842886
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-b8d4c29e-c209-4a13-8832-7938b7e58cc2",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 620.1398184901543,
+					"y": 33.5429779842886
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-b8d4c29e-c209-4a13-8832-7938b7e58cc2",
+					"type": "Agama-call-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
+					"name": "",
+					"basepath": "",
+					"comment": "Basic authentication with username and password",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": "creds.username creds.password",
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "com.toro.passclub.BasicAuthentication",
+					"javaMethodName": "authenticate",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "Authenticate",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:code",
+					"asssignedVariableName": "isAuthenticated"
+				}
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 620.1398184901543,
+				"y": 33.5429779842886
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
 			"position": {
-				"x": 420.1398184901543,
-				"y": 33.5429779842886
+				"x": 333.6657111764291,
+				"y": 30.75349065158781
 			},
 			"type": "rrf",
 			"data": {
@@ -16,8 +91,8 @@
 				"whenCondition": "",
 				"inRepeatBlock": false,
 				"position": {
-					"x": 420.1398184901543,
-					"y": 33.5429779842886
+					"x": 333.6657111764291,
+					"y": 30.75349065158781
 				},
 				"agamaData": {
 					"id": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
@@ -67,12 +142,12 @@
 					"nodeIcon": "ph:globe-simple",
 					"asssignedVariableName": "creds"
 				},
-				"skake": true
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
-				"x": 420.1398184901543,
-				"y": 33.5429779842886
+				"x": 333.6657111764291,
+				"y": 30.75349065158781
 			},
 			"dragging": false
 		},
@@ -160,11 +235,28 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d-Agama-call-Node-b8d4c29e-c209-4a13-8832-7938b7e58cc2-45e133eb-6991-40a1-b7d0-eee4ca77e9eb",
+			"type": "straight",
+			"source": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
+			"target": "Agama-call-Node-b8d4c29e-c209-4a13-8832-7938b7e58cc2",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": 169.17848011079843,
-		"y": 51.80461203227634,
-		"zoom": 0.8467453123625271
+		"x": 281.6009559944141,
+		"y": 74.82815799518568,
+		"zoom": 0.7371346086455506
 	}
 }
