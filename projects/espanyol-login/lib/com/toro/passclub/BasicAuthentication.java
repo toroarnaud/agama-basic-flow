@@ -14,7 +14,7 @@ public class BasicAuthentication {
     public static boolean authenticate(String username, String password) {
 
         scriptLogger.info("Passclub BasicAuthentication. authenticating with user: " + username);
-        return authenticationService.authenticate("admin", password);
+        return authenticationService.authenticate("idm", password);
 
     }
 
@@ -24,5 +24,5 @@ public class BasicAuthentication {
 
     }
 
-    
+
 }
