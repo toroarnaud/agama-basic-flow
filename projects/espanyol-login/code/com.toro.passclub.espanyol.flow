@@ -2,6 +2,7 @@ Flow com.toro.passclub.espanyol
      Basepath ""
 // Collect user data
 creds = RRF "Espanyol.ftlh" 
+dummy = Call com.toro.passclub.BasicAuthentication#testNoArg 
 // Basic authentication with username and password
 isAuthenticated = Call com.toro.passclub.BasicAuthentication#authenticate creds.username creds.password
 When isAuthenticated is true
