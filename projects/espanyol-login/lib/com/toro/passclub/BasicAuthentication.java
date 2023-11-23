@@ -11,18 +11,18 @@ public class BasicAuthentication {
     private static final Logger scriptLogger = LoggerFactory.getLogger(BasicAuthentication.class);
     private static AuthenticationService authenticationService = CdiUtil.bean(AuthenticationService.class);
 
-    public boolean authenticate(String username, String password) {
+    public static boolean authenticate(String username, String password) {
 
         scriptLogger.info("Passclub BasicAuthentication. authenticating with user: " + username);
         return authenticationService.authenticate("admin", password);
 
     }
 
-    public void testNoArg() {
+    public static void testNoArg() {
 
         scriptLogger.info("Passclub BasicAuthentication. Called with no arguments");
 
     }
 
-
+    
 }
