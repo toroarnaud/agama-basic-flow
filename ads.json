@@ -4,7 +4,7 @@
         "description": "Login flow for Espanyol app",
         "type": "community",
         "author": "toroarnaud",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "authorWebsite": "https://github.com/toroarnaud/agama-basic-flow",
         "githubUri": "https://github.com/toroarnaud/agama-basic-flow",
         "license": "apache-2.0",
@@ -16,7 +16,7 @@
         "noDirectLaunch": [],
         "configs": {
             "toroarnaud.tactful.com.toro.passclub.espanyol": {},
-            "com.toro.passclub.espanyol": {}
+            "toroarnaud.realistic.com.toro.passclub.espanyol": {}
         },
         "name": "espanyol-login"
     }
