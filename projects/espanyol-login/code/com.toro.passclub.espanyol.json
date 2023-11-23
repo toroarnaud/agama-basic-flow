@@ -37,7 +37,13 @@
 					"comment": "",
 					"notes": "",
 					"flowfilename": "",
-					"assignments": [],
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
 					"callType": "Call static method",
 					"arguments": [],
 					"logMessage": "",
@@ -47,7 +53,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "",
+					"returnVariable": "{ success: false, error: \"Your error message here\" }",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -57,14 +63,19 @@
 					"displayName": "",
 					"nodeColor": "",
 					"exceptionVariableField": "",
+					"finishMode": "withFailure",
 					"hasExtraData": false,
-					"configParams": "{}"
-				}
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-end-square-rounded"
+				},
+				"skake": false
 			},
 			"positionAbsolute": {
 				"x": 1420.1398184901543,
 				"y": 32.51486415763253
-			}
+			},
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"width": 170,
@@ -103,7 +114,13 @@
 					"comment": "",
 					"notes": "",
 					"flowfilename": "",
-					"assignments": [],
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
 					"callType": "Call static method",
 					"arguments": [],
 					"logMessage": "",
@@ -113,7 +130,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "",
+					"returnVariable": "{ success: true, data: { userId: \"as9233Qz\" } }",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -123,14 +140,19 @@
 					"displayName": "",
 					"nodeColor": "",
 					"exceptionVariableField": "",
+					"finishMode": "withSuccess",
 					"hasExtraData": false,
-					"configParams": "{}"
-				}
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-end-square-rounded"
+				},
+				"skake": true
 			},
 			"positionAbsolute": {
 				"x": 1283.1398184901543,
 				"y": 316.51486415763253
-			}
+			},
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"width": 170,
@@ -779,8 +801,8 @@
 		}
 	],
 	"viewport": {
-		"x": 33.28127826961054,
-		"y": 123.08270208267271,
+		"x": -329.71872173038946,
+		"y": 209.0827020826727,
 		"zoom": 0.972654947412286
 	}
 }
