@@ -18,5 +18,11 @@ public class BasicAuthentication {
 
     }
 
+    public void testNoArg() {
+
+        scriptLogger.info("Passclub BasicAuthentication. Called with no arguments");
+
+    }
+
 
 }
