@@ -7,4 +7,6 @@ dummy = Call com.toro.passclub.BasicAuthentication#testNoArg
 isAuthenticated = Call com.toro.passclub.BasicAuthentication#authenticate creds.username creds.password
 When isAuthenticated is true
      RRF "LoginSucceed.ftlh" 
+     Finish __________
 RRF "LoginFailed.ftlh" 
+Finish __________
