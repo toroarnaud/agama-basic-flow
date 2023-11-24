@@ -53,7 +53,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "{ success: true, data: { userId: \"admin\" } }",
+					"returnVariable": "{ success: true, data: { userId: creds.username } }",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
