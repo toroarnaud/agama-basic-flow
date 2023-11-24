@@ -6,8 +6,7 @@ dummy = Call com.toro.passclub.BasicAuthentication#testNoArg
 // Basic authentication with username and password
 isAuthenticated = Call com.toro.passclub.BasicAuthentication#authenticate creds.username creds.password
 When isAuthenticated is true
-     it_cslur = { success: true, data: { userId: "as9233Qz" } }
-     Finish it_cslur
+     Log "@info " User logged in!
 RRF "LoginFailed.ftlh" 
-it_njcze = { success: false, error: "Your error message here" }
-Finish it_njcze
+it_etndh = { success: false, error: "Your error message here" }
+Finish it_etndh
