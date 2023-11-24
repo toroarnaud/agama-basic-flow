@@ -45,7 +45,7 @@
 					],
 					"callType": "Call static method",
 					"arguments": [],
-					"logMessage": "User logged in!",
+					"logMessage": "\"User logged in!\"",
 					"templatePath": "",
 					"maxIteration": "",
 					"idpAuthEndpoint": "",
@@ -65,7 +65,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": true
 			},
 			"selected": true,
 			"dragging": false,
