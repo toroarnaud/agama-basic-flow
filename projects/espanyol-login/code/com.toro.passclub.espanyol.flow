@@ -8,5 +8,3 @@ isAuthenticated = Call com.toro.passclub.BasicAuthentication#authenticate creds.
 When isAuthenticated is true
      Log "@info User logged in!"
 RRF "LoginFailed.ftlh" 
-it_xjkhz = { success: false, error: "Your error message here" }
-Finish it_xjkhz
