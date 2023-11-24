@@ -50,25 +50,27 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "",
+					"returnVariable": "{ success: true, data: { userId: \"as9233Qz\" } }",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "",
+					"displayName": "Success",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"hasExtraData": false,
-					"configParams": "{}"
-				}
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-end-square-rounded"
+				},
+				"skake": true
 			},
 			"positionAbsolute": {
 				"x": 1105.1398184901543,
 				"y": 322.5429779842886
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -131,7 +133,7 @@
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "",
+					"displayName": "Failed",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"finishMode": "withFailure",
@@ -145,7 +147,7 @@
 				"x": 1446.1398184901543,
 				"y": 33.51486415763253
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
