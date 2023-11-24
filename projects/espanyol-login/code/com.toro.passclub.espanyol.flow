@@ -5,3 +5,5 @@ creds = RRF "Espanyol.ftlh"
 dummy = Call com.toro.passclub.BasicAuthentication#testNoArg 
 // Basic authentication with username and password
 isAuthenticated = Call com.toro.passclub.BasicAuthentication#authenticate creds.username creds.password
+it_wrigt = { success: true, data: { userId: creds.username } }
+Finish it_wrigt
