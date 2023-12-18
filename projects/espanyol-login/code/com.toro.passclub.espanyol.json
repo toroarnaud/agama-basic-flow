@@ -5,7 +5,7 @@
 			"height": 122,
 			"id": "finish-52e2fa34-c240-4042-bd3c-6943ed0e1324",
 			"position": {
-				"x": 986.5896397166514,
+				"x": 836.5896397166514,
 				"y": 68.49884809059483
 			},
 			"type": "finish",
@@ -17,7 +17,7 @@
 				"inRepeatBlock": "",
 				"handles": [],
 				"position": {
-					"x": 986.5896397166514,
+					"x": 836.5896397166514,
 					"y": 68.49884809059483
 				},
 				"agamaData": {
@@ -69,10 +69,10 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 986.5896397166514,
+				"x": 836.5896397166514,
 				"y": 68.49884809059483
 			}
 		},
@@ -98,8 +98,8 @@
 				"agamaData": {
 					"id": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
 					"type": "Agama-rrf-Node",
-					"hasSuccess": false,
-					"hasFailure": false,
+					"hasSuccess": "",
+					"hasFailure": "",
 					"hasRepeat": false,
 					"hasComment": true,
 					"hasNoRepeat": false,
@@ -221,96 +221,20 @@
 		{
 			"width": 170,
 			"height": 122,
-			"id": "Agama-call-Node-469bbc93-ca41-493d-a3f7-cde22370ca29",
-			"position": {
-				"x": 516.187776123276,
-				"y": 107.86202765079275
-			},
-			"type": "call",
-			"data": {
-				"id": "Agama-call-Node-469bbc93-ca41-493d-a3f7-cde22370ca29",
-				"type": "Agama-call-Node",
-				"parentId": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
-				"whenCondition": "",
-				"inRepeatBlock": false,
-				"position": {
-					"x": 516.187776123276,
-					"y": 107.86202765079275
-				},
-				"agamaData": {
-					"id": "Agama-call-Node-469bbc93-ca41-493d-a3f7-cde22370ca29",
-					"type": "Agama-call-Node",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasComment": true,
-					"hasNoRepeat": false,
-					"isTopLevelFlow": true,
-					"whenCondition": "",
-					"inRepeatBlock": false,
-					"parentId": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
-					"name": "",
-					"basepath": "",
-					"comment": "",
-					"notes": "",
-					"flowfilename": "",
-					"assignments": [
-						{
-							"variableTypeCheck": true,
-							"assignmentExpression": "",
-							"assignedVariableName": ""
-						}
-					],
-					"callType": "Call static method",
-					"arguments": [],
-					"logMessage": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"variableField": "",
-					"conditionInputField": "",
-					"valueField": "",
-					"returnVariable": "",
-					"javaClassName": "com.toro.passclub.BasicAuthentication",
-					"javaMethodName": "testNoArg",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "TestNoArg",
-					"nodeColor": "",
-					"exceptionVariableField": "",
-					"hasExtraData": false,
-					"configParams": "{}",
-					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "dummy"
-				},
-				"skake": false
-			},
-			"selected": false,
-			"dragging": false,
-			"positionAbsolute": {
-				"x": 516.187776123276,
-				"y": 107.86202765079275
-			}
-		},
-		{
-			"width": 170,
-			"height": 122,
 			"id": "Agama-call-Node-b8d4c29e-c209-4a13-8832-7938b7e58cc2",
 			"position": {
-				"x": 786.5896397166514,
+				"x": 636.5896397166514,
 				"y": 68.49884809059483
 			},
 			"type": "call",
 			"data": {
 				"id": "Agama-call-Node-b8d4c29e-c209-4a13-8832-7938b7e58cc2",
 				"type": "Agama-call-Node",
-				"parentId": "Agama-call-Node-469bbc93-ca41-493d-a3f7-cde22370ca29",
+				"parentId": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
 				"whenCondition": "",
 				"inRepeatBlock": "",
 				"position": {
-					"x": 786.5896397166514,
+					"x": 636.5896397166514,
 					"y": 68.49884809059483
 				},
 				"agamaData": {
@@ -324,7 +248,7 @@
 					"isTopLevelFlow": true,
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"parentId": "Agama-call-Node-469bbc93-ca41-493d-a3f7-cde22370ca29",
+					"parentId": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
 					"name": "",
 					"basepath": "",
 					"comment": "Basic authentication with username and password",
@@ -372,7 +296,7 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 786.5896397166514,
+				"x": 636.5896397166514,
 				"y": 68.49884809059483
 			},
 			"parentId": "Agama-call-Node-469bbc93-ca41-493d-a3f7-cde22370ca29",
@@ -501,6 +425,12 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d-Agama-call-Node-b8d4c29e-c209-4a13-8832-7938b7e58cc2-d6c65381-a4a1-48d4-9ae9-29de0cfed1df",
+			"type": "straight",
+			"source": "Agama-rrf-Node-81b3da25-1163-4768-be35-ea51537ec79d",
+			"target": "Agama-call-Node-b8d4c29e-c209-4a13-8832-7938b7e58cc2"
 		}
 	],
 	"viewport": {
