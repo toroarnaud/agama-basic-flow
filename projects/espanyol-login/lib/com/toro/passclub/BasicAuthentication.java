@@ -23,18 +23,13 @@ public class BasicAuthentication {
             user.setAttribute("uid", username);
             user.setAttribute("userPassword", password);
             user = userService.addUser(user, true);
+            scriptLogger.info("Passclub BasicAuthentication. User added with username: " + username);
         }
-        scriptLogger.info("Passclub BasicAuthentication. User added for username: " + username + "password: " + password);
+        
         boolean isAuthenticated = authenticationService.authenticate(username, password);
         scriptLogger.info("Passclub BasicAuthentication. is authenticated: " + isAuthenticated);
         
         return isAuthenticated;
-    }
-
-    public static void testNoArg() {
-        
-        scriptLogger.info("Passclub BasicAuthentication. Called with no arguments");
-
     }
 
 
